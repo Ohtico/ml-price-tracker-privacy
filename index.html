@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ML Price Tracker · Política de privacidad / Política de privacidade / Privacy policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #222; background: #f5f5f5; margin: 0; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+  nav { display: flex; gap: 8px; margin-bottom: 32px; }
+  nav a { padding: 6px 14px; border-radius: 6px; background: #e8f1fe; color: #2968e0; text-decoration: none; font-weight: 600; font-size: 14px; }
+  section { background: #fff; border: 1px solid #e6e6e6; border-radius: 10px; padding: 28px 32px; margin-bottom: 28px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 28px 0 8px; }
+  .updated { color: #666; font-size: 14px; margin: 0 0 20px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 8px 0; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid #eee; }
+  th { background: #fafafa; }
+  code { background: #f3f3f3; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+<nav>
+  <a href="#es" lang="es">Español</a>
+  <a href="#pt" lang="pt-BR">Português</a>
+  <a href="#en" lang="en">English</a>
+</nav>
+
+<!-- ===================================================================== -->
+<section id="es" lang="es">
+<h1>Política de privacidad de ML Price Tracker</h1>
+<p class="updated">Última actualización: 11 de noviembre de 2026</p>
+
+<p>ML Price Tracker es una extensión de Chrome que guarda el historial de precios de los productos que ves en Mercado Libre y Mercado Livre, y te dice si un descuento es real. Esta política explica qué datos maneja, dónde se guardan y cómo puedes borrarlos.</p>
+<p>ML Price Tracker es un proyecto independiente. No está afiliado, patrocinado ni respaldado por Mercado Libre.</p>
+
+<h2>1. Datos que se guardan en tu navegador</h2>
+<p>Cuando abres la página de un producto en los sitios de Mercado Libre de Colombia, México, Argentina, Chile o Brasil, la extensión lee de esa página y guarda en tu navegador (<code>chrome.storage.local</code>):</p>
+<ul>
+  <li>el código del producto (por ejemplo <code>MCO-61403702</code>) y el país;</li>
+  <li>el título, la dirección de la imagen principal y la dirección de la página;</li>
+  <li>el precio, la moneda, el precio anterior tachado si aparece, y la fecha y hora de cada registro.</li>
+</ul>
+<p>Tus preferencias (umbral de descuento, período del promedio, idioma y si compartes precios) se guardan en <code>chrome.storage.sync</code>. Si tienes activada la sincronización de Chrome, Google las sincroniza entre tus dispositivos según su propia política de privacidad.</p>
+<p>La extensión no lee nada de otras páginas, no accede a tu cuenta de Mercado Libre y no lee tus cookies, compras, mensajes ni datos de pago.</p>
+
+<h2>2. Historial compartido (solo si lo activas)</h2>
+<p>El historial compartido viene <strong>desactivado</strong>. Solo se activa si pulsas «Activar historial compartido» en la pantalla de bienvenida o lo enciendes en las opciones. Mientras esté activo:</p>
+<table>
+  <tr><th>Qué se envía</th><th>Para qué</th></tr>
+  <tr><td>Código del producto, moneda, precio y precio anterior (si aparece)</td><td>Construir un historial de precios común para todos los usuarios.</td></tr>
+  <tr><td>Un identificador anónimo aleatorio, creado la primera vez que compartes</td><td>Guardar como máximo un precio por persona, producto y día, para que nadie pueda inflar el historial recargando la página; y permitirte borrar tus aportes.</td></tr>
+</table>
+<p>La fecha la pone el servidor. <strong>No se envían</strong> tu nombre, tu correo, el título ni la dirección de la página, tu historial de navegación ni ningún dato de tu cuenta de Mercado Libre.</p>
+<p>Cuando la extensión consulta el historial compartido de un producto, la consulta se hace sin tu identificador anónimo, así que el servidor no puede vincular los productos que miras con tus aportes.</p>
+<p>Cualquiera que use la extensión puede consultar el historial compartido, que solo contiene una mediana de precio por producto y por día, sin datos de quién aportó cada precio.</p>
+
+<h2>3. Dónde se guardan los datos compartidos</h2>
+<p>Los datos compartidos se guardan en <a href="https://supabase.com">Supabase</a>, nuestro proveedor de base de datos, en servidores de São Paulo, Brasil. Como en cualquier conexión a internet, Supabase recibe tu dirección IP al procesar cada petición y puede conservarla durante un tiempo limitado en sus registros técnicos, según su <a href="https://supabase.com/privacy">política de privacidad</a>. Nosotros no guardamos tu IP junto a los precios.</p>
+
+<h2>4. Lo que no hacemos</h2>
+<ul>
+  <li>No vendemos ni alquilamos datos.</li>
+  <li>No usamos los datos para publicidad, perfiles ni fines ajenos al historial de precios.</li>
+  <li>No usamos herramientas de analítica ni rastreadores.</li>
+  <li>No transferimos datos a terceros, salvo a Supabase para guardarlos, o cuando una ley nos obligue.</li>
+</ul>
+
+<h2>5. Cuánto tiempo se guardan</h2>
+<p>Los datos de tu navegador se quedan ahí hasta que los borres o desinstales la extensión. Los aportes compartidos se conservan mientras el servicio funcione, para mantener el historial, salvo que los borres.</p>
+
+<h2>6. Cómo controlar y borrar tus datos</h2>
+<ul>
+  <li><strong>Datos locales:</strong> en las opciones, «Eliminar historial» borra todos los precios guardados en tu navegador. «Exportar datos» te da una copia en JSON.</li>
+  <li><strong>Dejar de compartir:</strong> apaga «Historial compartido» en las opciones. No se envía nada más desde ese momento.</li>
+  <li><strong>Aportes compartidos:</strong> en las opciones, «Borrar mis aportes del servidor» elimina todos los precios que enviaste.</li>
+  <li><strong>Desinstalar:</strong> borra los datos locales y tu identificador anónimo. Como ese identificador es la única forma de saber qué aportes son tuyos, si quieres borrar tus aportes, hazlo antes de desinstalar.</li>
+</ul>
+<p>Según la ley de tu país (por ejemplo la Ley 1581 de 2012 en Colombia, la LFPDPPP en México, la Ley 25.326 en Argentina, la Ley 19.628 y su reforma, la Ley 21.719, en Chile o la LGPD en Brasil) puedes tener derechos de acceso, rectificación y eliminación. Puedes ejercerlos con las herramientas anteriores o escribiendo a <a href="mailto:mlpricemlpricesoporte@gmail.com">mlpricemlpricesoporte@gmail.com</a>.</p>
+
+<h2>7. Menores de edad</h2>
+<p>La extensión no está dirigida a menores de 13 años y no recoge a sabiendas datos de menores.</p>
+
+<h2>8. Cambios en esta política</h2>
+<p>Si cambiamos qué datos se manejan, actualizaremos esta página y la fecha de arriba, y lo avisaremos dentro de la extensión antes de aplicar el cambio.</p>
+
+<h2>9. Contacto</h2>
+<p><a href="mailto:mlpricemlpricesoporte@gmail.com">mlpricemlpricesoporte@gmail.com</a></p>
+</section>
+
+<!-- ===================================================================== -->
+<section id="pt" lang="pt-BR">
+<h1>Política de privacidade do ML Price Tracker</h1>
+<p class="updated">Última atualização: 11 de novembro de 2026</p>
+
+<p>O ML Price Tracker é uma extensão do Chrome que guarda o histórico de preços dos produtos que você vê no Mercado Livre e no Mercado Libre, e mostra se um desconto é real. Esta política explica quais dados ela trata, onde ficam guardados e como você pode apagá-los.</p>
+<p>O ML Price Tracker é um projeto independente. Não é afiliado, patrocinado nem endossado pelo Mercado Livre.</p>
+
+<h2>1. Dados guardados no seu navegador</h2>
+<p>Quando você abre a página de um produto no Mercado Livre Brasil ou no Mercado Libre da Colômbia, México, Argentina ou Chile, a extensão lê dessa página e guarda no seu navegador (<code>chrome.storage.local</code>):</p>
+<ul>
+  <li>o código do produto (por exemplo <code>MLB-1234567890</code>) e o país;</li>
+  <li>o título, o endereço da imagem principal e o endereço da página;</li>
+  <li>o preço, a moeda, o preço anterior riscado se aparecer, e a data e hora de cada registro.</li>
+</ul>
+<p>Suas preferências (limite de desconto, período da média, idioma e se você compartilha preços) ficam em <code>chrome.storage.sync</code>. Se a sincronização do Chrome estiver ativa, o Google as sincroniza entre seus dispositivos conforme a política de privacidade dele.</p>
+<p>A extensão não lê nada de outras páginas, não acessa sua conta do Mercado Livre e não lê seus cookies, compras, mensagens nem dados de pagamento.</p>
+
+<h2>2. Histórico compartilhado (só se você ativar)</h2>
+<p>O histórico compartilhado vem <strong>desativado</strong>. Ele só é ativado se você clicar em «Ativar histórico compartilhado» na tela de boas-vindas ou ligá-lo nas opções. Enquanto estiver ativo:</p>
+<table>
+  <tr><th>O que é enviado</th><th>Para quê</th></tr>
+  <tr><td>Código do produto, moeda, preço e preço anterior (se aparecer)</td><td>Montar um histórico de preços comum a todos os usuários.</td></tr>
+  <tr><td>Um identificador anônimo aleatório, criado na primeira vez que você compartilha</td><td>Guardar no máximo um preço por pessoa, produto e dia, para que ninguém consiga inflar o histórico recarregando a página; e permitir que você apague suas contribuições.</td></tr>
+</table>
+<p>A data é definida pelo servidor. <strong>Não são enviados</strong> seu nome, seu e-mail, o título nem o endereço da página, seu histórico de navegação nem nenhum dado da sua conta do Mercado Livre.</p>
+<p>Quando a extensão consulta o histórico compartilhado de um produto, a consulta é feita sem o seu identificador anônimo, então o servidor não consegue ligar os produtos que você vê às suas contribuições.</p>
+<p>Qualquer pessoa que use a extensão pode consultar o histórico compartilhado, que contém apenas uma mediana de preço por produto e por dia, sem dados de quem contribuiu com cada preço.</p>
+
+<h2>3. Onde ficam os dados compartilhados</h2>
+<p>Os dados compartilhados ficam no <a href="https://supabase.com">Supabase</a>, nosso provedor de banco de dados, em servidores em São Paulo, Brasil. Como em qualquer conexão à internet, o Supabase recebe seu endereço IP ao processar cada requisição e pode mantê-lo por um tempo limitado em seus registros técnicos, conforme a <a href="https://supabase.com/privacy">política de privacidade</a> dele. Nós não guardamos seu IP junto com os preços.</p>
+
+<h2>4. O que não fazemos</h2>
+<ul>
+  <li>Não vendemos nem alugamos dados.</li>
+  <li>Não usamos os dados para publicidade, perfis nem fins alheios ao histórico de preços.</li>
+  <li>Não usamos ferramentas de análise nem rastreadores.</li>
+  <li>Não transferimos dados a terceiros, exceto ao Supabase para armazená-los, ou quando a lei nos obrigar.</li>
+</ul>
+
+<h2>5. Por quanto tempo os dados ficam guardados</h2>
+<p>Os dados do seu navegador ficam lá até você apagá-los ou desinstalar a extensão. As contribuições compartilhadas são mantidas enquanto o serviço funcionar, para preservar o histórico, a menos que você as apague.</p>
+
+<h2>6. Como controlar e apagar seus dados</h2>
+<ul>
+  <li><strong>Dados locais:</strong> nas opções, «Apagar histórico» remove todos os preços salvos no seu navegador. «Exportar dados» gera uma cópia em JSON.</li>
+  <li><strong>Parar de compartilhar:</strong> desligue «Histórico compartilhado» nas opções. A partir desse momento nada mais é enviado.</li>
+  <li><strong>Contribuições compartilhadas:</strong> nas opções, «Apagar minhas contribuições do servidor» remove todos os preços que você enviou.</li>
+  <li><strong>Desinstalar:</strong> apaga os dados locais e o seu identificador anônimo. Como esse identificador é a única forma de saber quais contribuições são suas, se quiser apagá-las, faça isso antes de desinstalar.</li>
+</ul>
+<p>Pela Lei Geral de Proteção de Dados (LGPD) e pelas leis dos outros países onde a extensão funciona, você pode ter direitos de acesso, correção e eliminação. Você pode exercê-los com as ferramentas acima ou escrevendo para <a href="mailto:mlpricemlpricesoporte@gmail.com">mlpricemlpricesoporte@gmail.com</a>.</p>
+
+<h2>7. Menores de idade</h2>
+<p>A extensão não é destinada a menores de 13 anos e não coleta intencionalmente dados de menores.</p>
+
+<h2>8. Alterações nesta política</h2>
+<p>Se mudarmos quais dados são tratados, atualizaremos esta página e a data acima, e avisaremos dentro da extensão antes de aplicar a mudança.</p>
+
+<h2>9. Contato</h2>
+<p><a href="mailto:mlpricemlpricesoporte@gmail.com">mlpricemlpricesoporte@gmail.com</a></p>
+</section>
+
+<!-- ===================================================================== -->
+<section id="en" lang="en">
+<h1>ML Price Tracker privacy policy</h1>
+<p class="updated">Last updated: November 11, 2026</p>
+
+<p>ML Price Tracker is a Chrome extension that keeps the price history of the products you view on Mercado Libre and Mercado Livre, and tells you whether a discount is real. This policy explains what data it handles, where it is stored and how you can delete it.</p>
+<p>ML Price Tracker is an independent project. It is not affiliated with, sponsored or endorsed by Mercado Libre.</p>
+
+<h2>1. Data stored in your browser</h2>
+<p>When you open a product page on the Mercado Libre sites for Colombia, Mexico, Argentina, Chile or Brazil, the extension reads from that page and stores in your browser (<code>chrome.storage.local</code>):</p>
+<ul>
+  <li>the product code (for example <code>MLM-1234567890</code>) and the country;</li>
+  <li>the title, the main image address and the page address;</li>
+  <li>the price, the currency, the struck-through previous price if shown, and the date and time of each record.</li>
+</ul>
+<p>Your preferences (deal threshold, averaging period, language and whether you share prices) are stored in <code>chrome.storage.sync</code>. If Chrome sync is on, Google syncs them across your devices under its own privacy policy.</p>
+<p>The extension reads nothing from other pages, does not access your Mercado Libre account, and does not read your cookies, purchases, messages or payment details.</p>
+
+<h2>2. Shared history (only if you turn it on)</h2>
+<p>Shared history is <strong>off</strong> by default. It is turned on only if you click "Turn on shared history" on the welcome page or switch it on in the options. While it is on:</p>
+<table>
+  <tr><th>What is sent</th><th>Why</th></tr>
+  <tr><td>Product code, currency, price and previous price (if shown)</td><td>To build a price history shared by all users.</td></tr>
+  <tr><td>A random anonymous identifier, created the first time you share</td><td>To keep at most one price per person, product and day, so nobody can inflate the history by reloading the page; and to let you delete your contributions.</td></tr>
+</table>
+<p>The date is set by the server. <strong>Not sent:</strong> your name, your email, the page title or address, your browsing history, or any data from your Mercado Libre account.</p>
+<p>When the extension reads the shared history of a product, the request is made without your anonymous identifier, so the server cannot link the products you view to your contributions.</p>
+<p>Anyone using the extension can read the shared history, which contains only one median price per product per day, with no information about who contributed each price.</p>
+
+<h2>3. Where shared data is stored</h2>
+<p>Shared data is stored with <a href="https://supabase.com">Supabase</a>, our database provider, on servers in São Paulo, Brazil. As with any internet connection, Supabase receives your IP address when it processes each request and may keep it for a limited time in its technical logs, under its <a href="https://supabase.com/privacy">privacy policy</a>. We do not store your IP address with the prices.</p>
+
+<h2>4. What we don't do</h2>
+<ul>
+  <li>We don't sell or rent data.</li>
+  <li>We don't use data for advertising, profiling or any purpose unrelated to price history.</li>
+  <li>We don't use analytics tools or trackers.</li>
+  <li>We don't transfer data to third parties, except to Supabase to store it, or when required by law.</li>
+</ul>
+
+<h2>5. How long data is kept</h2>
+<p>Data in your browser stays there until you delete it or uninstall the extension. Shared contributions are kept while the service runs, to preserve the history, unless you delete them.</p>
+
+<h2>6. How to control and delete your data</h2>
+<ul>
+  <li><strong>Local data:</strong> in the options, "Delete history" removes every price saved in your browser. "Export data" gives you a JSON copy.</li>
+  <li><strong>Stop sharing:</strong> turn off "Shared history" in the options. Nothing else is sent from then on.</li>
+  <li><strong>Shared contributions:</strong> in the options, "Delete my contributions from the server" removes every price you sent.</li>
+  <li><strong>Uninstalling</strong> deletes local data and your anonymous identifier. Since that identifier is the only way to know which contributions are yours, delete your contributions before uninstalling if you want them gone.</li>
+</ul>
+<p>Depending on the law of your country, you may have rights to access, correct and delete your data. You can exercise them with the tools above or by writing to <a href="mailto:mlpricemlpricesoporte@gmail.com">mlpricemlpricesoporte@gmail.com</a>.</p>
+
+<h2>7. Children</h2>
+<p>The extension is not directed at children under 13 and does not knowingly collect data from children.</p>
+
+<h2>8. Changes to this policy</h2>
+<p>If we change what data is handled, we will update this page and the date above, and notify you inside the extension before the change applies.</p>
+
+<h2>9. Contact</h2>
+<p><a href="mailto:mlpricemlpricesoporte@gmail.com">mlpricemlpricesoporte@gmail.com</a></p>
+</section>
+</main>
+</body>
+</html>
